@@ -1,4 +1,4 @@
-{
+window.SENTENCES_AUDIO_MAP = {
   "Can you play the flute?": "assets/audios/tts/fish_q_0_9f7d7364.mp3",
   "Yes, I can.": "assets/audios/tts/fish_opt_3b925184.mp3",
   "No, I can't.": "assets/audios/tts/fish_opt_5617396f.mp3",
@@ -22,4 +22,4 @@
   "bike": "assets/audios/tts/fish_opt_dde2c7ad.mp3",
   "boat": "assets/audios/tts/fish_opt_dd8fc45d.mp3",
   "green": "assets/audios/tts/fish_opt_9f274107.mp3"
-}
+};
