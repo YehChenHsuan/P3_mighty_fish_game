@@ -1,10 +1,11 @@
 /**
- * ALICE ESL Phonics P3 - Mighty Fish 3D 海底探險題庫資料
+ * ALICE ESL Phonics P3 - 大魚吃小魚英文冒險題庫 (data.js)
  * 課本學習範圍：Page 04 - 12
  * 主題：Beginning Sounds & Long Vowels (Silent E / Two Vowels)
  */
 
-const P3_FISH_QUESTIONS = [
+window.BOOK_ID = "P3";
+const FISH_QUESTIONS = [
   {
     "id": "fish-qa-1",
     "type": "QA",
@@ -19,7 +20,7 @@ const P3_FISH_QUESTIONS = [
     ],
     "correct": "Yes, I can.",
     "audioFallback": "P3_flashcards_audios/P3_flute.mp3",
-    "voiceType": "speech"
+    "theme": "Beginning Sounds & Long Vowels (Silent E / Two Vowels)"
   },
   {
     "id": "fish-qa-2",
@@ -35,7 +36,7 @@ const P3_FISH_QUESTIONS = [
     ],
     "correct": "Yes, it can.",
     "audioFallback": "P3_flashcards_audios/P3_boat.mp3",
-    "voiceType": "speech"
+    "theme": "Beginning Sounds & Long Vowels (Silent E / Two Vowels)"
   },
   {
     "id": "fish-qa-3",
@@ -51,7 +52,7 @@ const P3_FISH_QUESTIONS = [
     ],
     "correct": "leaf",
     "audioFallback": "P3_flashcards_audios/P3_leaf.mp3",
-    "voiceType": "speech"
+    "theme": "Beginning Sounds & Long Vowels (Silent E / Two Vowels)"
   },
   {
     "id": "fish-qa-4",
@@ -62,12 +63,12 @@ const P3_FISH_QUESTIONS = [
     "speechText": "Which word begins with Yy?",
     "options": [
       "yellow",
-      "library",
+      "yard",
       "night"
     ],
     "correct": "yellow",
     "audioFallback": "P3_flashcards_audios/P3_yellow.mp3",
-    "voiceType": "speech"
+    "theme": "Beginning Sounds & Long Vowels (Silent E / Two Vowels)"
   },
   {
     "id": "fish-qa-5",
@@ -79,11 +80,11 @@ const P3_FISH_QUESTIONS = [
     "options": [
       "cake",
       "feet",
-      "tube"
+      "cube"
     ],
     "correct": "cake",
     "audioFallback": "P3_flashcards_audios/P3_cake.mp3",
-    "voiceType": "speech"
+    "theme": "Beginning Sounds & Long Vowels (Silent E / Two Vowels)"
   },
   {
     "id": "fish-qa-6",
@@ -99,21 +100,10 @@ const P3_FISH_QUESTIONS = [
     ],
     "correct": "bike",
     "audioFallback": "P3_flashcards_audios/P3_bike.mp3",
-    "voiceType": "speech"
+    "theme": "Beginning Sounds & Long Vowels (Silent E / Two Vowels)"
   }
 ];
 
 if (typeof window !== "undefined") {
-  window.P1_FISH_QUESTIONS = P3_FISH_QUESTIONS;
-  window.P3_FISH_QUESTIONS = P3_FISH_QUESTIONS;
-  window.P1_QUESTIONS_DATA = P3_FISH_QUESTIONS;
-  window.P3_QUESTIONS_DATA = P3_FISH_QUESTIONS;
-}
-
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = {
-    P1_FISH_QUESTIONS: P3_FISH_QUESTIONS,
-    P3_FISH_QUESTIONS,
-    P1_QUESTIONS_DATA: P3_FISH_QUESTIONS
-  };
+  window.FISH_QUESTIONS = FISH_QUESTIONS;
 }
